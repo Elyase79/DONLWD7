@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تنزيل فيديو - أداة مجانية لتحميل مقاطع الفيديو من تيك توك، فيسبوك، يوتيوب، تويتر وسناب شات بدون علامة مائية وبجودة عالية">
+    <meta name="keywords" content="تنزيل فيديو, تحميل تيك توك, تحميل فيسبوك, تحميل يوتيوب, تحميل تويتر, تحميل سناب شات, بدون علامة مائية">
+    <title>تنزيل فيديو - أداة تحميل الفيديو من وسائل التواصل الاجتماعي</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap');
+        body { font-family: 'Tajawal', sans-serif; background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); color: #fff; min-height: 100vh; }
+        .galaxy-bg { background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxkZWZzPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSg0NSkiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3QgZmlsbD0idXJsKCNwYXR0ZXJuKSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg=='); }
+        .glow { box-shadow: 0 0 15px rgba(100, 149, 237, 0.7); }
+        .btn-gradient { background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%); transition: all 0.3s ease; }
+        .btn-gradient:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+        .platform-icon { transition: all 0.3s ease; }
+        .platform-icon:hover { transform: scale(1.1); }
+        .input-field { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); }
+        .input-field:focus { background: rgba(255, 255, 255, 0.2); }
+        .result-card { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease; }
+        .result-card:hover { transform: translateY(-5px); background: rgba(255, 255, 255, 0.1); }
+        .pulse { animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(106, 17, 203, 0.7);} 70% { box-shadow: 0 0 0 10px rgba(106, 17, 203, 0);} 100% { box-shadow: 0 0 0 0 rgba(106, 17, 203, 0);} }
+    </style>
+</head>
+<body class="galaxy-bg">
+    <header class="py-6 px-4 md:px-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2 rtl:space-x-reverse">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-500 flex items-center justify-center glow">
+                    <i class="fas fa-play text-white"></i>
+                </div>
+                <h1 class="text-xl md:text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">تنزيل فيديو</h1>
+            </div>
+            <nav class="hidden md:flex space-x-6 rtl:space-x-reverse">
+                <a href="#" class="text-white hover:text-purple-300 transition">الرئيسية</a>
+                <a href="#how" class="text-white hover:text-purple-300 transition">كيفية الاستخدام</a>
+                <a href="#faq" class="text-white hover:text-purple-300 transition">الأسئلة الشائعة</a>
+                <a href="#contact" class="text-white hover:text-purple-300 transition">اتصل بنا</a>
+            </nav>
+            <button class="md:hidden text-white">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="py-12 px-4 md:px-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">أداة تحميل الفيديو من وسائل التواصل الاجتماعي</h2>
+            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto">حمل مقاطع الفيديو من تيك توك، فيسبوك، يوتيوب، تويتر وسناب شات بدون علامة مائية وبجودة عالية. سريع، آمن ومجاني!</p>
+            <div class="max-w-4xl mx-auto bg-white/10 rounded-xl p-6 backdrop-blur-md">
+                <div class="flex flex-col md:flex-row gap-4">
+                    <input id="video-url" type="text" placeholder="الصق رابط الفيديو هنا..." class="flex-grow px-5 py-3 rounded-lg input-field text-white focus:outline-none">
+                    <button id="fetch-btn" class="btn-gradient px-6 py-3 rounded-lg text-white font-semibold flex items-center justify-center">
+                        <i class="fas fa-download ml-2 rtl:ml-0 rtl:mr-2"></i> جلب الروابط
+                    </button>
+                </div>
+                <p id="error-msg" class="text-red-300 text-sm mt-3 hidden"></p>
+                <div id="loading" class="mt-4 hidden">
+                    <span class="inline-flex items-center gap-2 text-gray-200"><i class="fas fa-circle-notch fa-spin"></i> جارِ المعالجة...</span>
+                </div>
+                <div class="mt-6 flex flex-wrap justify-center gap-4">
+                    <div class="platform-icon w-14 h-14 bg-white/10 rounded-full flex items-center justify-center" title="تيك توك"><i class="fab fa-tiktok text-2xl text-white"></i></div>
+                    <div class="platform-icon w-14 h-14 bg-white/10 rounded-full flex items-center justify-center" title="فيسبوك"><i class="fab fa-facebook text-2xl text-white"></i></div>
+                    <div class="platform-icon w-14 h-14 bg-white/10 rounded-full flex items-center justify-center" title="يوتيوب"><i class="fab fa-youtube text-2xl text-white"></i></div>
+                    <div class="platform-icon w-14 h-14 bg-white/10 rounded-full flex items-center justify-center" title="تويتر"><i class="fab fa-twitter text-2xl text-white"></i></div>
+                    <div class="platform-icon w-14 h-14 bg-white/10 rounded-full flex items-center justify-center" title="سناب شات"><i class="fab fa-snapchat text-2xl text-white"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="results" class="py-12 px-4 md:px-8 hidden">
+        <div class="container mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold mb-8">نتائج تحميل الفيديو</h2>
+            <div id="video-meta" class="flex items-center mb-6"></div>
+            <div id="results-container" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-12 px-4 md:px-8 bg-gradient-to-b from-black/30 to-transparent">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-2xl md:text-4xl font-bold text-center mb-12">الأسئلة الشائعة</h2>
+            <div class="space-y-4">
+                <div class="result-card p-6 rounded-xl">
+                    <div class="flex justify-between items-center cursor-pointer">
+                        <h3 class="font-bold">هل هذه الخدمة مجانية؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <p class="mt-3 text-gray-300">نعم، خدمة تنزيل فيديو مجانية بالكامل ولا توجد أي رسوم خفية.</p>
+                </div>
+                <div class="result-card p-6 rounded-xl">
+                    <div class="flex justify-between items-center cursor-pointer">
+                        <h3 class="font-bold">هل مقاطع الفيديو تحتوي على علامة مائية؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <p class="mt-3 text-gray-300">لا، جميع مقاطع الفيديو التي يتم تحميلها من خلال موقعنا تكون بدون علامة مائية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 px-4 md:px-8 bg-black/50" id="contact">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 rtl:space-x-reverse mb-4">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-500 flex items-center justify-center">
+                            <i class="fas fa-play text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">تنزيل فيديو</h3>
+                    </div>
+                    <p class="text-gray-400">أداة تحميل الفيديو من وسائل التواصل الاجتماعي بدون علامة مائية وبجودة عالية.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">روابط</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-purple-300">الرئيسية</a></li>
+                        <li><a href="#how" class="hover:text-purple-300">كيفية الاستخدام</a></li>
+                        <li><a href="#faq" class="hover:text-purple-300">الأسئلة الشائعة</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">الدعم</h4>
+                    <p class="text-gray-300">تواصل معنا على البريد: support@example.com</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">سياسات</h4>
+                    <p class="text-gray-300 text-sm">باستخدامك للخدمة فأنت تقر بالالتزام بالشروط وعدم انتهاك حقوق المنصات. هذه الأداة للاستخدام الشخصي والتعليمي فقط.</p>
+                </div>
+            </div>
+            <p class="text-center text-gray-500 mt-8">© <span id="year"></span> تنزيل فيديو</p>
+        </div>
+    </footer>
+
+    <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const urlInput = document.getElementById('video-url');
+    const fetchBtn = document.getElementById('fetch-btn');
+    const resultsSec = document.getElementById('results');
+    const resultsContainer = document.getElementById('results-container');
+    const videoMeta = document.getElementById('video-meta');
+    const loading = document.getElementById('loading');
+    const errorMsg = document.getElementById('error-msg');
+
+    function show(el){ el.classList.remove('hidden'); }
+    function hide(el){ el.classList.add('hidden'); }
+
+    async function fetchInfo() {
+        const url = urlInput.value.trim();
+        errorMsg.textContent = '';
+        hide(errorMsg);
+        if(!url){ errorMsg.textContent = 'الرجاء إدخال رابط صحيح'; show(errorMsg); return; }
+        show(loading);
+        try {
+            const res = await fetch('/api/info', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url }) });
+            const data = await res.json();
+            if(!res.ok){ throw new Error(data.message || 'تعذر جلب معلومات الفيديو'); }
+            renderResults(data);
+        } catch (e) {
+            errorMsg.textContent = e.message;
+            show(errorMsg);
+            hide(resultsSec);
+        } finally {
+            hide(loading);
+        }
+    }
+
+    function renderResults(data){
+        resultsContainer.innerHTML = '';
+        videoMeta.innerHTML = `
+            <img src="${data.thumbnail || 'https://via.placeholder.com/150'}" class="w-20 h-20 rounded-lg object-cover" alt="thumb"/>
+            <div class="mr-4 rtl:mr-0 rtl:ml-4">
+                <h3 class="font-bold">${data.title || 'فيديو'}</h3>
+                <p class="text-sm text-gray-300">${data.uploader ? 'الناشر: ' + data.uploader : ''}</p>
+            </div>
+        `;
+
+        const formats = (data.formats || []).filter(f => (f.ext || '').toLowerCase() !== 'mhtml');
+        formats.sort((a,b)=> (b.height||0)-(a.height||0));
+
+        formats.forEach(f => {
+            const quality = [f.resolution || (f.height? `${f.height}p` : ''), f.fps? `${f.fps}fps` : '', f.ext? f.ext.toUpperCase() : ''].filter(Boolean).join(' · ');
+            const size = f.filesize ? ( (f.filesize/1024/1024).toFixed(1) + ' MB' ) : 'حجم غير متاح';
+            const card = document.createElement('div');
+            card.className = 'result-card p-6 rounded-xl';
+            card.innerHTML = `
+                <div class="flex items-center mb-4">
+                    <img src="${data.thumbnail || 'https://via.placeholder.com/150'}" alt="Video thumbnail" class="w-20 h-20 rounded-lg object-cover">
+                    <div class="mr-4 rtl:mr-0 rtl:ml-4">
+                        <h3 class="font-bold">${data.title || 'فيديو'}</h3>
+                        <p class="text-sm text-gray-300">${quality}</p>
+                        <p class="text-xs text-gray-400">${size}</p>
+                    </div>
+                </div>
+                <button data-format="${f.format_id}" class="download-btn btn-gradient w-full py-2 rounded-lg text-white font-medium">
+                    <i class="fas fa-download ml-2 rtl:ml-0 rtl:mr-2"></i> تحميل الآن
+                </button>
+            `;
+            resultsContainer.appendChild(card);
+        });
+
+        show(resultsSec);
+
+        document.querySelectorAll('.download-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const formatId = btn.getAttribute('data-format');
+                const v = urlInput.value.trim();
+                const a = document.createElement('a');
+                a.href = `/api/download?url=${encodeURIComponent(v)}&format_id=${encodeURIComponent(formatId)}`;
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.click();
+            });
+        });
+    }
+
+    fetchBtn.addEventListener('click', fetchInfo);
+    urlInput.addEventListener('keydown', (e)=>{ if(e.key==='Enter'){ fetchInfo(); }});
+    </script>
+</body>
+</html>
+
